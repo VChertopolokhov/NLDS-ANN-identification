@@ -1,0 +1,71 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+
+%Russian-specific packages
+%--------------------------------------
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+%--------------------------------------
+ 
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+%--------------------------------------
+
+\usepackage{cite}
+\usepackage{hyperref}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{ВКР-2021}
+
+%--------------------------------------
+%\author{\IEEEauthorblockN{1\textsuperscript{st} Пруд Владислав Дмитриевич}
+%\IEEEauthorblockA{\textit{Департамент прикладной математики} \\
+%\textit{НИУ ВШЭ}\\
+%Москва, Россия \\
+%vprud@edu.hse.ru}
+%\and
+%}
+%--------------------------------------
+
+\maketitle
+
+\begin{abstract}
+This document is a model and instructions for \LaTeX.
+This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
+or Math in Paper Title or Abstract.
+\end{abstract}
+
+\begin{IEEEkeywords}
+component, formatting, style, styling, insert
+\end{IEEEkeywords}
+
+\section{Введение}
+Представление нейронных сетей как нелинейных динамических систем\cite{Haykin_1998} открывает возможность как для анализа самих нейронных сетей \cite{Hopfield_1984}\cite{Hirsch_1989}, так и для решения задачи идентификации динамических систем\cite{Rovithakis_1994}. 
+
+В первом случае нейронная сеть отождествляется с динамической системой, определяемой векторным полем в пространстве векторов активации с фиксированными весами, смещениями и входными данными\cite{Hirsch_1989}. Такое отождествление позволяет оценить устойчивость работы нейронной сети как возможность успешного обучения. В работе\cite{Hopfield_1984}  Дж. Хопфилд прибегает к теории устойчивости Ляпунова для того, чтобы показать соответствие между устойчивыми точками системы и образами в ассоциативной памяти сети\cite{Haykin_1998}. 
+
+Во втором случае способность нейронных сетей к достаточно точной аппроксимации большого класса нелинейных функций даёт возможность идентификации нелинейных динамических систем\cite{Narendra_1990}. В большинстве случаев для идентификации применяют нейронные сети с рекуррентной или сверточной архитектурой.  Так в статье\cite{Poznyak_0002} задачу идентификации решают при помощи динамической сети с рекуррентной архитектурой, а в работе\cite{Chashchin_2019} используется сеть ResNet с рекуррентной архитектурой. Ниже будет проведен обзор нейронных сетей с различной архитектурой в качестве идентификатора динамических систем. 
+
+\section{Обзор существющих методов}
+
+\bibliographystyle{plain} 
+\bibliography{refs} 
+
+
+\vspace{12pt}
+\color{red}
+IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
+
+\end{document}
