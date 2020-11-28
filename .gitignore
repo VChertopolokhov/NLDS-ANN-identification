@@ -138,3 +138,30 @@ dmypy.json
 *.swp
 *.swo
 
+# VScode
+.vscode
+
+# Image files
+*.png
+*.jpg 
+*.tiff
+
+# Text files
+*.txt
+*.csv 
+*.dsv
+*.tsv
+
+# Excel-files 
+*.xlsx
+*.xlsm
+*.xlsb
+*.xltx
+*.xls
+*.xlt
+*.xltm
+*.xlr
+
+# Do not 
+0 - tensors.ipynb
+visual.ipynb
