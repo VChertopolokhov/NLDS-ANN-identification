@@ -947,7 +947,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": 8,
    "metadata": {},
    "outputs": [
     {
@@ -978,7 +978,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": 9,
    "metadata": {},
    "outputs": [
     {
@@ -1096,7 +1096,7 @@
        "[61302 rows x 3 columns]"
       ]
      },
-     "execution_count": 15,
+     "execution_count": 9,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1114,7 +1114,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 16,
+   "execution_count": 10,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1133,7 +1133,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 17,
+   "execution_count": 11,
    "metadata": {},
    "outputs": [
     {
@@ -1494,7 +1494,7 @@
        "[61302 rows x 20 columns]"
       ]
      },
-     "execution_count": 17,
+     "execution_count": 11,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1505,7 +1505,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
+   "execution_count": 12,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1514,7 +1514,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 19,
+   "execution_count": 13,
    "metadata": {},
    "outputs": [
     {
@@ -1523,7 +1523,7 @@
        "<AxesSubplot:>"
       ]
      },
-     "execution_count": 19,
+     "execution_count": 13,
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -1549,7 +1549,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 20,
+   "execution_count": 14,
    "metadata": {},
    "outputs": [
     {
@@ -1922,7 +1922,7 @@
        "[61302 rows x 21 columns]"
       ]
      },
-     "execution_count": 20,
+     "execution_count": 14,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1936,7 +1936,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 21,
+   "execution_count": 15,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1967,7 +1967,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 37,
+   "execution_count": 16,
    "metadata": {},
    "outputs": [
     {
@@ -1989,7 +1989,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 35,
+   "execution_count": 17,
    "metadata": {},
    "outputs": [
     {
@@ -2011,7 +2011,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 18,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -2020,20 +2020,9 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 36,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "0.6371591141283088"
-      ]
-     },
-     "execution_count": 36,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
+   "outputs": [],
    "source": []
   },
   {
